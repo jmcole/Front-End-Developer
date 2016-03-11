@@ -1,0 +1,44 @@
+/*stylesheet to supplement bootstrap.css*/
+body{
+    font-family:'lato',sans-serif;
+    color:#676858;
+    font-weight:300;
+}
+.text-muted{
+    color: #bcbbbb;
+}
+.text-thin{
+    font-weight: 100;
+}
+.title-super{
+    font-size: 60px;
+    font-weight: 100;
+}
+.title-logo{
+    margin-top:20px;
+}
+.social-logo{
+    margin-right:10px;
+}
+
+.hr-style{
+    color: #bcbbbb;
+}
+
+figcaption { text-align:center; }
+
+
+/*Aligns text properly for smaller screens*/
+
+@media (max-width: 768px){
+    .title-center{
+        text-align: center;
+    }
+}
+@media (max-width: 768px){
+    .title-super{
+        font-size: 60px;
+        font-weight: 100;
+        text-align: center;
+    }
+}
