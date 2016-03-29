@@ -1,0 +1,11 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  * What has been easy?
+  * What has been difficult?
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+---
+
+Your response goes here!
+
+The biggest skill I have learned is how html is used to create the look of a web page. I have found that the basics of html is pretty easy to understand, however using those in creative was to give a website its style can be difficult. I have used the first lesson to understand that this may be diffiuclt, but it is something that I am capable of learning. If I break down the problem into its simplist form and search for answers using the forums and external websites.
