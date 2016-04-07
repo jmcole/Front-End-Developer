@@ -74,3 +74,9 @@ figcaption {
   width: 100%;
   padding-bottom: 5%;
 }
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}

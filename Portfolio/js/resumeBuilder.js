@@ -138,6 +138,10 @@ function displaybio(){
     $("#topContacts").append(formattedGit);
     $("#topContacts").append(formattedLinkedIn);
     $("#topContacts").append(formattedPhone);
+    $("#footerContacts").append(formattedPhone);
+    $("#footerContacts").append(formattedEmail);
+    $("#footerContacts").append(formattedLinkedIn);
+    $("#footerContacts").append(formattedGit);
 
     if(bio.skills.length > 0) {
         $("#sstart").append(HTMLskillsStart);

@@ -59,6 +59,7 @@ var HTMLonlineURL = '<a href="#">%data%</a><p>';
 
 var internationalizeButton = '<button>Internationalize</button>';
 var googleMap = '<div id="map"></div>';
+var footerContacts='<div>%data%</div>';
 
 
 /*
