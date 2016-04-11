@@ -1,9 +1,6 @@
 /*
-
 This file contains all of the code running in the background that makes resumeBuilder.js possible. We call these helper functions because they support your code in this course.
-
 Don't worry, you'll learn what's going on in this file throughout the course. You won't need to make any changes to it until you start experimenting with inserting a Google Map in Problem Set 3.
-
 Cameron Pittman
 */
 
@@ -21,9 +18,11 @@ var HTMLemail = '<a href=mailto:%data%><img class="social-logo img-responsive pu
 var HTMLgithub = '<a href=%data%><img class="social-logo img-responsive pull-right flex-item" src=images/GitHub-Mark-32px.png alt="GitHub Logo"></a>';
 var HTMLlinkedIn = '<a href=%data%><img class="social-logo img-responsive pull-right flex-item" src=images/linkedin-logo.png alt="Linked In Logo"></a>';
 var HTMLmobile = '<li class="flex-item"><span></span><span>%data%</span></li>';
-var HTMLlocation = '<li class="flex-item"><span>location</span><span>%data%</span></li>';
+var HTMLlocation = '<img class="social-logo img-responsive pull-right flex-item" src=images/globe.png data-toggle="modal" data-target="#location" alt="Globe"></a>';
 var HTMLModal='<img class="img-responsive flex-item"src="images/Telephone-icon.png" alt="Phone"><span id="modal">%data%</span></a>';
 var HTMLModal2='<img class="img-responsive flex-item"src="images/mobile-icon.png" alt="Mobile"><span id="modal2">%data%</span></a>';
+var HTMLModal3='<img class="img-responsive flex-item"src="images/globe.png" alt="Globe"><span id="modal3">%data%</span></a>';
+
 
 var HTMLbioPic = '<img src="%data%" class="img-rounded">';
 var HTMLwelcomeMsg = '<span id="message" class="welcome-message">%data%</span>';
