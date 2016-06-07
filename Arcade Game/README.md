@@ -1,4 +1,4 @@
-# Frogger Style Arcade Clone
+# *Frogger* Style Arcade Clone
 
 
 ## Introduction
