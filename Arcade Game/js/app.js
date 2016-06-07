@@ -63,7 +63,7 @@ Enemy.prototype.render = function() {
 var Player = function(){
     "use strict";
     this.sprite = 'images/char-boy.png';
-    this.width = 66;//height and width definition needed for collision dtection
+    this.width = 66;//height and width definition needed for collision detection
     this.height = 95;
     this.reset();//Sets player intitial position
 };
