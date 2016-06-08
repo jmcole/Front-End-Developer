@@ -1,14 +1,14 @@
-# *Frogger* Style Arcade Clone
+# Frogger Style Arcade Clone
 
 
 ## Introduction
 This is a stripped down version of the classic arcade game Frogger.
 
 ## Game Play
-Use the up/down and left/right keys to move the character around the playing field. Running into a bug will restart the player to the beginning. If the player makes it to the water a "You Win!!" message is displayed in the console.
+Open the index.html file within Arcade Game folder and the game should start. Use the up/down and left/right keys to move the character around the playing field. Running into a bug will restart the player to the beginning. If the player makes it to the water a "You Win!!" message is displayed in the console.
 
 ## Future Upgrades
-On the **To Do** list for future upgrades are:
+On the **To Do ** list for future upgrades are:
 
 1. Add Scoring system
 2. Ability to select player character
