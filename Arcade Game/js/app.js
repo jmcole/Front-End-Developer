@@ -1,16 +1,6 @@
 /*******************************************
-https://discussions.udacity.com/t/for-those-who-do-not-know-where-to-start-project-3/15618
-Create Player Class based on the sample Enemy Class provided.
-Fill in default player instance location info. (HINT: x? y?)
-Create one player instance from Player Class. (You will see the game scenes get initialised)
-Create multiple enemy instance from Enemy Class.
-Fill in default enemy instance location info.
-Fill in update enemy instance moving function.
-Create player input handle function.
-Create function to detect collision.
-http://diveinto.html5doctor.com/canvas.html#c
-width 505
-height 606
+This is a simple "Frogger" arcade game program that is built using Object Oriented Javascript and HTML5 Canvas.
+John Cole ver 2 6/7/2016 for Udacity Front-End Developer Program
 *******************************************/
 
 
@@ -156,14 +146,16 @@ between the two objects, a collision exists and the player is reset.
 https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection
 https://discussions.udacity.com/t/collision-detection-loop/39113/2
 **************************************/
+
+
 Player.prototype.collision=function(){
         "use strict";
-        for (var e = 0; e < allEnemies.length; e++) {
-            if (allEnemies[e].x < player.x + player.width
-                && allEnemies[e].x + allEnemies[e].width > player.x
-                && allEnemies[e].y < player.y + player.height
-                && allEnemies[e].y + allEnemies[e].height > player.y)
-            player.reset();
+            for (var e = 0, len = allEnemies.length; e < len; e++) {
+            if (allEnemies[e].x < this.x + this.width
+                && allEnemies[e].x + allEnemies[e].width > this.x
+                && allEnemies[e].y < this.y + this.height
+                && allEnemies[e].y + allEnemies[e].height > this.y)
+            this.reset();
   }
 
 };
@@ -181,3 +173,18 @@ document.addEventListener('keyup', function(e) {
 
     player.handleInput(allowedKeys[e.keyCode]);
 });
+
+/*******************************************
+https://discussions.udacity.com/t/for-those-who-do-not-know-where-to-start-project-3/15618
+Create Player Class based on the sample Enemy Class provided.
+Fill in default player instance location info. (HINT: x? y?)
+Create one player instance from Player Class. (You will see the game scenes get initialised)
+Create multiple enemy instance from Enemy Class.
+Fill in default enemy instance location info.
+Fill in update enemy instance moving function.
+Create player input handle function.
+Create function to detect collision.
+http://diveinto.html5doctor.com/canvas.html#c
+width 505
+height 606
+*******************************************/
